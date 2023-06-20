@@ -27,12 +27,29 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/icons",
+              "src/assets/images"
             ],
             "styles": [
-              "src/styles.scss"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/fontawesome.min.css",
+              "src/assets/css/main.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/all.min.js",
+              "src/assets/js/apexcharts.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/fontawesome.min.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/owl.carousel.js",
+              "src/assets/js/owl.carousel.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,7 +110,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           }
